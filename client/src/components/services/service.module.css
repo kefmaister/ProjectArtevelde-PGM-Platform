@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  z-index: 1;
+}
+.card {
+  margin: 0 5rem;
+  height: 100%;
+}
+.cardLink {
+  margin-bottom: 3rem;
+}

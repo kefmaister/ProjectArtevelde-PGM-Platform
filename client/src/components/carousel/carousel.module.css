@@ -1,0 +1,34 @@
+.hiddenOverflow {
+  overflow: hidden;
+  width: 30rem;
+  height: 34rem;
+}
+@media screen and (max-width: 768px) {
+  .hiddenOverflow {
+    width: 20rem;
+    height: 35rem;
+  }
+}
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+
+.cardImage {
+  width: 20vw;
+}
+div.dark {
+  background-color: var(--dark);
+  color: var(--white);
+}
+div.dark h6,
+div.dark p {
+  color: var(--white);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}

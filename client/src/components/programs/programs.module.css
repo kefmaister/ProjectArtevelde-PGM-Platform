@@ -1,0 +1,57 @@
+.Container {
+  margin: 0 auto;
+  width: 80vw;
+}
+@media screen and (max-width: 650px) {
+  .gridContainer {
+    padding: 0 1rem;
+  }
+}
+.paper {
+  padding-top: 3rem;
+}
+.table {
+  width: 100%;
+  border-bottom: 2px solid var(--blue);
+}
+
+@media screen and (max-width: 1270px) {
+  .table tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.course {
+  color: var(--orange);
+  padding: 1rem 0;
+}
+.semester,
+.points {
+  width: 20%;
+}
+@media screen and (max-width: 1270px) {
+  .semester,
+  .points {
+    width: 100%;
+  }
+}
+div.grid {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+a.link {
+  text-decoration: none;
+  color: var(--dark);
+}
+.selectContainer {
+  width: 11rem;
+  margin-left: 1rem;
+}
+.selectDark {
+  background-color: white;
+}
+.title{
+  margin: 3rem 0;
+}

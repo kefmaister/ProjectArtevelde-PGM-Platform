@@ -1,0 +1,24 @@
+.header {
+  font-size: 11rem;
+  text-align: center;
+
+  color: var(--grey);
+}
+
+.bolder {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.content {
+  margin: 2rem 0;
+}
+
+.textContainer {
+  margin-bottom: 2rem;
+}

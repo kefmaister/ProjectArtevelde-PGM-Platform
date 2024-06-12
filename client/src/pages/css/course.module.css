@@ -1,0 +1,25 @@
+.container {
+  padding: 2rem;
+}
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.headerText {
+  width: 50rem;
+  padding-right: 2rem;
+}
+.articleContainer {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.articleContainer div {
+  width: 45rem;
+  padding: 2rem 1rem;
+}
+.image{
+  width: 40rem;
+}

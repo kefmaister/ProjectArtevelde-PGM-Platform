@@ -1,0 +1,11 @@
+.button {
+  background: none;
+  border: none;
+}
+.buttonContainer {
+  align-self: center;
+  width: 7rem;
+}
+.darkModeIcon {
+  color: var(--white);
+}

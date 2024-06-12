@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../../fonts/cascadia-code/Cascadia.ttf") format("truetype");
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  width: 22rem;
+}
+.container a {
+  text-decoration: none;
+  font-family: "cascadia code", sans-serif;
+  color: var(--orange);
+}
+.drawer a {
+  text-decoration: none;
+  font-family: "cascadia code", sans-serif;
+  color: var(--orange);
+}
+.background {
+  background-image: url("../../assets/svg/Target.svg");
+  position: absolute;
+  width: 27rem;
+  height: 28rem;
+  background-repeat: no-repeat;
+  top: -14rem;
+  left: -14rem;
+  z-index: -1;
+  opacity: 0.5;
+}

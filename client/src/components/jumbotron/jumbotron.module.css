@@ -1,0 +1,22 @@
+.highlight {
+  background-color: var(--orange);
+  padding: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.bolder {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content {
+  margin: 2rem 0;
+}
+.imageSize {
+  width: 60rem;
+}
+

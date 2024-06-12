@@ -1,0 +1,52 @@
+.cardWidth {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.viewBtn {
+  position: absolute;
+  bottom: 1rem;
+}
+.contentContainer {
+  margin-bottom: 5rem;
+}
+@media screen and (max-width: 714px) {
+  .cardWidth {
+    margin-right: 0;
+  }
+}
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.headerContainer h2 {
+  margin: 0;
+}
+.header {
+  font-size: 11rem;
+  text-align: center;
+
+  color: var(--grey);
+}
+.link {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+div.dark {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+div.dark h6,
+div.dark p,
+div.dark div {
+  color: var(--white);
+}
+.select {
+  margin-left: 2rem;
+}
+.selectDark {
+  background-color: var(--white);
+}
